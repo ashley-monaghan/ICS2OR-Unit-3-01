@@ -55,73 +55,74 @@
           <span class="mdl-layout-title">Area of a Trapizoid, with JS!</span>
         </div>
       </header>
-      <h3>Formula:</h3>
-      <h5>A= [(a + b) / 2] x h</h5>
-      <p>Please emter integers for dimensions:</p>
-      <!-- A Base | Numeric Textfield with text beside textbox -->
-      <form action="#">
-        A Base:
-        <div class="mdl-textfield mdl-js-textfield">
-          <input
-            class="mdl-textfield__input"
-            type="text"
-            pattern="-?[0-9]*(\.[0-9]+)?"
-            id="base-a"
-            aria-lable="A Base"
-          />
-          <span class="mdl-textfield__error">Input is not a number!</span>
-        </div>
-        mm
-      </form>
-      <!-- B Base | Numeric Textfield with text beside textbox -->
-      <form action="#">
-        B Base:
-        <div class="mdl-textfield mdl-js-textfield">
-          <input
-            class="mdl-textfield__input"
-            type="text"
-            pattern="-?[0-9]*(\.[0-9]+)?"
-            id="base-b"
-            aria-lable="B Base"
-          />
-          <span class="mdl-textfield__error">Input is not a number!</span>
-        </div>
-        mm
-      </form>
-      <!-- Height | Numeric Textfield with text beside textbox -->
-      <form action="#">
-        Height:
-        <div class="mdl-textfield mdl-js-textfield">
-          <input
-            class="mdl-textfield__input"
-            type="text"
-            pattern="-?[0-9]*(\.[0-9]+)?"
-            id="height"
-            aria-lable="height"
-          />
-          <span class="mdl-textfield__error">Input is not a number!</span>
-        </div>
-        mm
-      </form>
       <main class="mdl-layout__content">
-        <p></p>
-        <img
-          src="./images/trapezoid-area.jpg"
-          alt="Trapizoid Area Formula Diagram"
-          width="40%"
-          height="auto%"
-        />
-        <p></p>
-        <!-- Raised button with ripple -->
-        <button
-          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-          onclick="calculate()"
-        >
-          Say "Area is!"
-        </button>
-        <!-- basic text -->
-        <p></p>
-        <div id="area"></div>
+        <h3>Formula:</h3>
+        <h5>A= [(a + b) / 2] x h</h5>
+        <p>Please emter integers for dimensions:</p>
+        <!-- A Base | Numeric Textfield with text beside textbox -->
+        <form action="#">
+          A Base:
+          <div class="mdl-textfield mdl-js-textfield">
+            <input
+              class="mdl-textfield__input"
+              type="text"
+              pattern="-?[0-9]*(\.[0-9]+)?"
+              id="base-a"
+              aria-lable="A Base"
+            />
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+          mm
+        </form>
+        <!-- B Base | Numeric Textfield with text beside textbox -->
+        <form action="#">
+          B Base:
+          <div class="mdl-textfield mdl-js-textfield">
+            <input
+              class="mdl-textfield__input"
+              type="text"
+              pattern="-?[0-9]*(\.[0-9]+)?"
+              id="base-b"
+              aria-lable="B Base"
+            />
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+          mm
+        </form>
+        <!-- Height | Numeric Textfield with text beside textbox -->
+        <form action="#">
+          Height:
+          <div class="mdl-textfield mdl-js-textfield">
+            <input
+              class="mdl-textfield__input"
+              type="text"
+              pattern="-?[0-9]*(\.[0-9]+)?"
+              id="height"
+              aria-lable="height"
+            />
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+          mm
+        </form>
+        <!-- Image -->
+          <p></p>
+          <img
+            src="./images/trapezoid-area.jpg"
+            alt="Trapizoid Area Formula Diagram"
+            width="40%"
+            height="auto%"
+          />
+          <p></p>
+          <!-- Raised button with ripple -->
+          <button
+            class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+            onclick="calculate()"
+          >
+            Say "Area is!"
+          </button>
+          <!-- basic text -->
+          <p></p>
+          <div id="area"></div>
       </main>
     </div>
   </body>
