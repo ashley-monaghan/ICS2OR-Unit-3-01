@@ -28,5 +28,5 @@ function calculate() {
 
   // output
   document.getElementById("area").innerHTML =
-    "The area is: " + area.toFixed(2) + "cm"
+    "The area is: " + area.toFixed(2) + " cm"
 }
